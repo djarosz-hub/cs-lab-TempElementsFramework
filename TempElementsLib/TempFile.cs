@@ -11,7 +11,7 @@ namespace TempElementsLib
     {
         public readonly FileStream fileStream;
         public readonly FileInfo fileInfo;
-        private bool isDestroyed = false;
+        protected bool isDestroyed = false;
         public string FilePath => fileInfo.FullName;
         public bool IsDestroyed => isDestroyed;
 
