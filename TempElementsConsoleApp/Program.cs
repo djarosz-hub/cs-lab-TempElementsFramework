@@ -53,8 +53,6 @@ namespace TempElementsConsoleApp
             //    Thread.Sleep(10000);
             //}
             #endregion
-            #region test 4 ex
-            #endregion
         }
     }
 }
